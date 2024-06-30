@@ -28,7 +28,7 @@ function PizzaDetails() {
           <img src={pizza.photo} alt={pizza.nom} className="pizza-photo" />
           <h1>{pizza.nom}</h1>
           <h3>Base: {pizza.base}</h3>
-          <p className="ingredients">Ingrédients: {pizza.ingredients}</p>
+          <p className="ingredients">{pizza.ingredients}</p>
         </div>
       </div>
     </>
