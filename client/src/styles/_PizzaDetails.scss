@@ -1,10 +1,52 @@
-.pizza-details {
-  text-align: center;
-  margin: 20px;
+.pizza-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 80px; /* Ajouter un espacement pour la navbar fixe */
 }
 
-.pizza-photo {
-  max-width: 100%;
+.pizza-details-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.pizza-details-card img {
+  width: 100%;
   height: auto;
-  margin-top: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pizza-details-card h1 {
+  font-size: 2em;
+  margin: 20px 0;
+  color: #333;
+}
+
+.pizza-details-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #666;
+}
+
+.pizza-details-card p {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #888;
+}
+
+.pizza-details-card .ingredients {
+  font-size: 1em;
+  margin: 20px 0;
+  color: #555;
+  padding: 0 20px;
 }

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import Navbar from "../components/Navbar";
 
 function PizzaDetails() {
   const { id } = useParams();
@@ -20,12 +21,17 @@ function PizzaDetails() {
   }
 
   return (
-    <div className="pizza-details">
-      <h1>{pizza.nom}</h1>
-      <img src={pizza.photo} alt={pizza.nom} className="pizza-photo" />
-      <h3>Base: {pizza.base}</h3>
-      <p>Ingrédients: {pizza.ingredients}</p>
-    </div>
+    <>
+      <Navbar />
+      <div className="pizza-details-container">
+        <div className="pizza-details-card">
+          <img src={pizza.photo} alt={pizza.nom} className="pizza-photo" />
+          <h1>{pizza.nom}</h1>
+          <h3>Base: {pizza.base}</h3>
+          <p className="ingredients">Ingrédients: {pizza.ingredients}</p>
+        </div>
+      </div>
+    </>
   );
 }
 
