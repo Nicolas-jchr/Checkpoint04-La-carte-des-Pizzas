@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./client/src/assets/logo-pizza.png">
+<img src="./client/src/assets/logo-pizza.png" height=200px>
 </p>
 
 ## 🚀 Bienvenue sur mon projet checkpoint 4 réalisé à la Wild Code School <br>
@@ -30,9 +30,9 @@
 
 ### 👥 Partie Utilisateur:
 
-- L'utilisateur pourra s'inscire ou se connecter.
-- L'utilisateur pourra se situer sur une carte interactive et voir les oeuvres de street art autour de lui.
-- L'utilisateur pourra accéder aux pages instructions, et au classement général.
+- L'utilisateur peut voir une liste de pizza provenant du back.
+- L'utilisateur peut cliquer sur une pizza pour voir les détails.
+- L'utilisateur peut ajouter une pizza.
 
 
 ### 📝 Dans cette version:
