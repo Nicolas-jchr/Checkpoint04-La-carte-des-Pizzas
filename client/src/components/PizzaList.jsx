@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Logo from "../assets/logo-pizza.png";
 
 export default function PizzaList() {
   const [pizzas, setPizzas] = useState([]);
@@ -60,7 +61,7 @@ export default function PizzaList() {
     <div>
       <nav className="navbar">
         <div className="navbar-left">
-          <span>La carte des pizzas</span>
+          <img src={Logo} alt="Logo du site" />
         </div>
         <div className="navbar-center">
           <label>
@@ -86,7 +87,7 @@ export default function PizzaList() {
             className="add-button"
             onClick={() => setShowModal(true)}
           >
-            +
+            Ajouter une pizza
           </button>
         </div>
       </nav>
@@ -103,9 +104,7 @@ export default function PizzaList() {
               <div className="cardBody">
                 <h2 className="cardTitle">{pizza.nom}</h2>
                 <h3 className="cardTextBase">Base: {pizza.base}</h3>
-                <p className="cardTextIngredients">
-                  Ingrédients: {pizza.ingredients}
-                </p>
+                <p className="cardTextIngredients">{pizza.ingredients}</p>
               </div>
             </div>
           ))
