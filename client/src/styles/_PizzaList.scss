@@ -7,8 +7,8 @@
 }
 
 .card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: var(--color-cream);
+  border: 1px solid var(--color-crust);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -35,26 +35,26 @@
 .cardTitle {
   font-size: 1.2em;
   margin-bottom: 10px;
-  color: #333;
+  color: var(--color-tomato);
 }
 
 .cardTextBase {
   font-size: 1em;
   margin-bottom: 10px;
-  color: #666;
+  color: var(--color-basil);
 }
 
 .cardTextIngredients {
   font-size: 0.9em;
-  color: #888;
+  color: var(--color-crust);
 }
 
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #333;
-  color: white;
+  background-color: var(--color-tomato);
+  color: var(--color-cream);
   padding: 10px;
   text-align: center;
   z-index: 1000;
@@ -63,7 +63,7 @@
 .navbar label {
   margin: 0 10px;
   font-size: 1em;
-  color: white;
+  color: var(--color-cream);
 }
 
 .navbar input[type="checkbox"] {
@@ -71,16 +71,16 @@
 }
 
 .add-button {
-  background: #fff;
+  background: var(--color-cheese);
   border: none;
-  color: #333;
+  color: var(--color-crust);
   font-size: 1.5em;
   margin-left: 20px;
   cursor: pointer;
 }
 
 .add-button:hover {
-  color: #888;
+  color: var(--color-crust);
 }
 
 .modal {
@@ -88,7 +88,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: var(--color-cream);
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   z-index: 1001;
@@ -107,17 +107,23 @@
 .modal-content select {
   padding: 5px;
   margin-top: 5px;
+  border: 1px solid var(--color-crust);
+  border-radius: 4px;
 }
 
 .modal-content button {
   margin-top: 10px;
   padding: 10px;
   cursor: pointer;
+  background-color: var(--color-tomato);
+  color: var(--color-cream);
+  border: none;
+  border-radius: 4px;
 }
 
 .modal-content button:nth-child(2) {
   background-color: #ff6b6b;
-  color: white;
+  color: var(--color-cream);
 }
 
 .modal-content button:nth-child(2):hover {

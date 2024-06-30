@@ -13,7 +13,7 @@ INSERT INTO pizza (nom, base, ingredients, photo) VALUES
 ('Diavola', 'tomate', 'mozzarella, salami piquant', 'https://www.iffco.it/sites/default/files/styles/free_crop/public/img/recipe/gran-cucina-pizza-diavola.jpg?h=de92a0b7&itok=eC0EvTVI'),
 ('Prosciutto e Funghi', 'tomate', 'mozzarella, jambon, champignons', 'https://www.menu.it/media/ricette/pizza-prosciutto-e-funghi-68651/conversions/P079_Prosciutto-e-funghi-main.jpg'),
 ('Vegetarienne', 'tomate', 'mozzarella, poivrons, courgettes, aubergines, oignons', 'https://m.bettybossi.ch/static/rezepte/x/bb_nege080401_0038a_x.jpg'),
-('Bolognaise', 'tomate', 'mozzarella, viande hachée, oignons', 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fileauxepices.com%2Fblog%2F2015%2F05%2F27%2Frecette-pizza-bolognaise-maison%2Fwpid8583%2F&psig=AOvVaw0WW0yOBCgRga5WTfyWFBGB&ust=1719863292373000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjyqpiMhIcDFQAAAAAdAAAAABAE'),
+('Bolognaise', 'tomate', 'mozzarella, viande hachée, oignons', 'https://www.casa-pizza.com/images/photorecettes/pizza-bolognaise-123rf.jpg'),
 ('Regina', 'tomate', 'mozzarella, jambon, champignons', 'https://www.casa-pizza.com/images/photorecettes/pizza-regina-123rf.jpg'),
 ('Frutti di Mare', 'tomate', 'mozzarella, fruits de mer', 'https://www.tasteatlas.com/images/dishes/2475b8aa94c1463dbe9dc17e0f38a063.jpg'),
 ('Pescatore', 'tomate', 'mozzarella, thon, oignons, câpres', 'https://www.pizza-casa-nostra.fr/65-home_default/pizza-fruits-de-mer.jpg'),

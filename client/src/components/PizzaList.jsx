@@ -73,7 +73,7 @@ export default function PizzaList() {
           className="add-button"
           onClick={() => setShowModal(true)}
         >
-          +
+          + Ajouter une pizza
         </button>
       </nav>
       <div className="container">
@@ -96,7 +96,7 @@ export default function PizzaList() {
             </div>
           ))
         ) : (
-          <p>Pas de photos disponibles</p>
+          <p>Pas de pizzas disponibles</p>
         )}
       </div>
 
