@@ -3,8 +3,9 @@ import PizzaList from "../components/PizzaList";
 function Home() {
   return (
     <>
-      <header>
-        <h1>BIENVENUE SUR LE SITE DES PIZZAS</h1>
+      <header className="homeTitles">
+        <h1>La carte des pizzas</h1>
+        <h2>Une très grande sélections de pizzas</h2>
       </header>
       <main>
         <PizzaList />

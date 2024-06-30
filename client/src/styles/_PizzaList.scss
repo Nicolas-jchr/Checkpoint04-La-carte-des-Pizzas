@@ -56,12 +56,26 @@
   background-color: var(--color-tomato);
   color: var(--color-cream);
   padding: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 1000;
 }
 
+.navbar-left {
+  margin-left: 20px;
+}
+
+.navbar-center {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-right {
+  margin-right: 20px;
+}
+
 .navbar label {
-  margin: 0 10px;
   font-size: 1em;
   color: var(--color-cream);
 }
@@ -75,12 +89,23 @@
   border: none;
   color: var(--color-crust);
   font-size: 1.5em;
-  margin-left: 20px;
   cursor: pointer;
 }
 
 .add-button:hover {
   color: var(--color-crust);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  z-index: 1000;
+  cursor: pointer;
 }
 
 .modal {
