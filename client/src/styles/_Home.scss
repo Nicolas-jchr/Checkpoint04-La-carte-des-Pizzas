@@ -1,4 +1,11 @@
 .homeTitles {
   margin-top: 4rem;
   text-align: center;
+  h1 {
+    font-size: 5rem;
+    font-family: var(--primary-font);
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }
