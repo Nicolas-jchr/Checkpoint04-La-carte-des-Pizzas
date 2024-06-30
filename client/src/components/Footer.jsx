@@ -1,6 +1,18 @@
+import Github from "../assets/github.png";
+
 function Footer() {
   return (
-    <h1 className="">Nicolas JUCHEREAU / Checkpoint 4 / Gridception ❤️</h1>
+    <footer className="footer">
+      <p>Nicolas JUCHEREAU / Checkpoint 4 / Gridception ❤️</p>
+      <a
+        href="https://github.com/Nicolas-jchr"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="github-link"
+      >
+        <img src={Github} alt="GitHub Logo" className="github-logo" />
+      </a>
+    </footer>
   );
 }
 

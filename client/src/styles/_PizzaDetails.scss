@@ -5,7 +5,7 @@
   min-height: 100vh;
   padding: 20px;
   background-color: var(--color-cream);
-  margin-top: 80px; /* Ajouter un espacement pour la navbar fixe */
+  margin-top: 80px;
 }
 
 .pizza-details-card {
@@ -29,12 +29,14 @@
 
 .pizza-details-card h1 {
   font-size: 2em;
+  font-family: var(--primary-font);
   margin: 20px 0;
   color: var(--color-tomato);
 }
 
 .pizza-details-card h3 {
   font-size: 1.2em;
+  font-family: var(--secondary-font);
   margin: 10px 0;
   color: var(--color-basil);
 }
