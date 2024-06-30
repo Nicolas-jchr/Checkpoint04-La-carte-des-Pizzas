@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo-pizza.png";
 
 export default function PizzaList() {
@@ -61,7 +62,9 @@ export default function PizzaList() {
     <div>
       <nav className="navbar">
         <div className="navbar-left">
-          <img src={Logo} alt="Logo du site" />
+          <Link to="/">
+            <img src={Logo} alt="Logo du site" />
+          </Link>
         </div>
         <div className="navbar-center">
           <label>
@@ -95,12 +98,14 @@ export default function PizzaList() {
         {filteredPizzas.length > 0 ? (
           filteredPizzas.map((pizza) => (
             <div key={pizza.id} className="card">
-              <img
-                src={pizza.photo}
-                alt={pizza.nom}
-                loading="lazy"
-                className="cardImgTop"
-              />
+              <Link to={`/pizza/${pizza.id}`}>
+                <img
+                  src={pizza.photo}
+                  alt={pizza.nom}
+                  loading="lazy"
+                  className="cardImgTop"
+                />
+              </Link>
               <div className="cardBody">
                 <h2 className="cardTitle">{pizza.nom}</h2>
                 <h3 className="cardTextBase">Base: {pizza.base}</h3>

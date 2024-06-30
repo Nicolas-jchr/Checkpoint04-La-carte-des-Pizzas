@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
 import "./styles/import.scss";
+import PizzaDetails from "./pages/PizzaDetails";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/pizza/:id",
+        element: <PizzaDetails />,
       },
     ],
   },
