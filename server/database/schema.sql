@@ -7,8 +7,8 @@ CREATE TABLE pizza (
 );
 
 INSERT INTO pizza (nom, base, ingredients, photo) VALUES
-('Capricciosa', 'tomate', 'mozzarella, jambon, champignons, artichauts, olives', 'capricciosa.jpg'),
-('Marinara', 'tomate', 'ail, origan, huile d\'olive', 'marinara.jpg'),
+('Capricciosa', 'tomate', 'mozzarella, jambon, champignons, artichauts, olives', 'https://img.sunset02.com/sites/default/files/image/recipes/su/14/09/capricciosa-pizza-su-x.jpg'),
+('Marinara', 'tomate', 'ail, origan, huile d\'olive', 'https://www.pizzarecipe.org/wp-content/uploads/2019/01/Pizza-Marinara-2000x1500.jpg'),
 ('Quattro Stagioni', 'tomate', 'mozzarella, jambon, champignons, artichauts, olives', 'quattro_stagioni.jpg'),
 ('Diavola', 'tomate', 'mozzarella, salami piquant', 'diavola.jpg'),
 ('Prosciutto e Funghi', 'tomate', 'mozzarella, jambon, champignons', 'prosciutto_funghi.jpg'),
