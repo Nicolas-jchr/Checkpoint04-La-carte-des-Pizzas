@@ -3,7 +3,7 @@ CREATE TABLE pizza (
     nom VARCHAR(255) NOT NULL unique,
     base VARCHAR(50) not null,
     ingredients VARCHAR(255) not null,
-    photo VARCHAR(255) not null
+    photo VARCHAR(400) not null
 );
 
 INSERT INTO pizza (nom, base, ingredients, photo) VALUES
