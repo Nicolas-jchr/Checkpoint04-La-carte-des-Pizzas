@@ -7,6 +7,8 @@ import App from "./App";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 
+import "./styles/import.scss";
+
 const router = createBrowserRouter([
   {
     path: "/",
