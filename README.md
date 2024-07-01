@@ -115,6 +115,24 @@ v1.0 en cours
 - _Airbnb Standard_ : L'un des "standards" les plus connus, bien qu'il ne soit pas officiellement lié à ES/JS.
 - _Nodemon_ : Permet de redémarrer le serveur à chaque mise à jour d'un fichier .js.
 
+## 📌 Organisation: 
+
+### 🏃🏼 Sprint 1 : 
+
+- Maquettage du projet sur Figma 
+- Modélisation de la base de données
+
+### 🏃🏼 Sprint 2 : 
+
+- Initialisation du projet
+- Création de la partie Back-End
+
+### 🏃🏼 Sprint 3 :
+
+- Création de la partie Front-End
+- Liaison avec la base de données 
+- Finition du style
+
 ### 👥 Créateur :
 
 [Nicolas JUCHEREAU](https://github.com/Nicolas-jchr)
