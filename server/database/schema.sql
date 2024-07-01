@@ -18,10 +18,19 @@ INSERT INTO pizza (nom, base, ingredients, photo) VALUES
 ('Vegetarienne', 'tomate', 'mozzarella, poivrons, courgettes, aubergines, oignons', 'https://m.bettybossi.ch/static/rezepte/x/bb_nege080401_0038a_x.jpg'),
 ('Bolognaise', 'tomate', 'mozzarella, viande hachée, oignons', 'https://www.casa-pizza.com/images/photorecettes/pizza-bolognaise-123rf.jpg'),
 ('Regina', 'tomate', 'mozzarella, jambon, champignons', 'https://www.casa-pizza.com/images/photorecettes/pizza-regina-123rf.jpg'),
+('Carbonara', 'creme', 'mozzarella, oeuf, pancetta, parmesan', "https://fettadipizza.fr/wp-content/uploads/2021/04/pizza-carbonara-2.jpg"),
+('Margherita', 'tomate', 'mozzarella, basilic', "https://images.ctfassets.net/nw5k25xfqsik/64VwvKFqxMWQORE10Tn8pY/200c0538099dc4d1cf62fd07ce59c2af/20220211142754-margherita-9920.jpg"),
 ('Frutti di Mare', 'tomate', 'mozzarella, fruits de mer', 'https://www.tasteatlas.com/images/dishes/2475b8aa94c1463dbe9dc17e0f38a063.jpg'),
 ('Pescatore', 'tomate', 'mozzarella, thon, oignons, câpres', 'https://www.pizza-casa-nostra.fr/65-home_default/pizza-fruits-de-mer.jpg'),
 ('Calzone', 'tomate', 'mozzarella, jambon, ricotta', 'https://assets.afcdn.com/recipe/20161130/7916_w1024h1024c1cx2808cy1872.webp'),
-('Fiorentina', 'creme', 'mozzarella, épinards, oeuf, parmesan', 'https://www.lunchbox.eu/wp-content/uploads/2022/02/Fiorentina-Pizza.jpg');
+('Tartiflette', 'creme', 'mozzarella, pommes de terre, lardons, reblochon', "https://pizzahotaufeudebois.fr/wp-content/uploads/2019/09/Tartiflette.jpg"),
+('Quattro Formaggi', 'tomate', 'mozzarella, gorgonzola, parmesan, fontina', "https://www.ajinomoto.com/cms_wp_ajnmt_global/wp-content/uploads/umamirecipes/jpg/PIZZA-QUATRO-QUEIJOS-659x371.jpg"),
+('Chèvre Miel', 'creme', 'mozzarella, chèvre, miel, noix', "https://www.herta.fr/sites/default/files/2022-07/pizza-che%CC%80vre-miel-%284%29.jpg"),
+('Indienne', 'tomate', 'mozzarella, poulet tikka, poivrons, oignons rouges', "https://img.cuisineaz.com/660x660/2013/12/20/i93519-pizza-indienne.jpg"),
+('Mexicaine', 'tomate', 'mozzarella, boeuf haché, piments jalapenos', "https://www.lifemadedelicious.ca/-/media/GMI/Core-Sites/LMD/legacy/Images/LMD/Recipes/hearty-mexican-pizza-16x9.jpg"),
+('Pesto', 'creme', 'mozzarella, pesto, tomates cerises, roquette', "https://www.herta.fr/sites/default/files/2022-07/pizza-pesto.jpg"),
+('Fiorentina', 'creme', 'mozzarella, épinards, oeuf, parmesan', 'https://www.lunchbox.eu/wp-content/uploads/2022/02/Fiorentina-Pizza.jpg'),
+('Hawaïenne', 'tomate', 'mozzarella, jambon, ananas', "https://assets.afcdn.com/recipe/20170328/63885_w1024h576c1cx1500cy1000.webp");
 
 
 
