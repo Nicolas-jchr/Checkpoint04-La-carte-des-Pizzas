@@ -66,7 +66,6 @@
   gap: 20px;
   justify-content: center;
   padding: 20px;
-  margin-top: 80px;
 }
 
 .card {
@@ -114,7 +113,6 @@
 
 // Modal
 
-/* Style pour l'overlay de la modal */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -127,7 +125,6 @@
   cursor: pointer;
 }
 
-/* Style pour la modal */
 .modal {
   position: fixed;
   top: 50%;
@@ -142,14 +139,12 @@
   width: 100%;
 }
 
-/* Style pour le contenu de la modal */
 .modal-content {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-/* Style pour les labels et les inputs de la modal */
 .modal-content label {
   display: flex;
   flex-direction: column;
@@ -169,7 +164,6 @@
   box-sizing: border-box;
 }
 
-/* Style pour les boutons de la modal */
 .modal-content button {
   padding: 10px;
   cursor: pointer;
@@ -193,4 +187,35 @@
 
 .modal-content button:nth-child(2):hover {
   background-color: #ff4c4c;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .navbar-left {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-center {
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+  }
+
+  .navbar-right {
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .add-button {
+    width: 100%;
+    padding: 10px;
+  }
 }
