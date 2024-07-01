@@ -28,11 +28,11 @@
 
 ## 💻 Aperçu de la version Desktop :
 
-<img src="./client/src/assets/screendesktop1.PNG" width="300" height="500" alt="screen desktop"> <img src="./client/src/assets/screendesktop3.PNG" width="300" height="500" alt="screen desktop"> <img src="./client/src/assets/screendesktop2.PNG" width="300" height="500" alt="screen desktop">
+<img src="./client/src/assets/screendesktop1.PNG"  alt="screen desktop"> <img src="./client/src/assets/screendesktop3.PNG"  alt="screen desktop"> <img src="./client/src/assets/screendesktop2.PNG" alt="screen desktop">
 
 ## 📱 Aperçu de la version mobile : 
 
-<img src="./client/src/assets/screenmobile1.PNG" width="300" height="500" alt="screen mobile"> <img src="./client/src/assets/screenmobile3.PNG" width="300" height="500" alt="screen mobile"> <img src="./client/src/assets/screenmobile2.PNG" width="300" height="500" alt="screen mobile">
+<img src="./client/src/assets/screenmobile1.PNG" alt="screen mobile"> <img src="./client/src/assets/screenmobile3.PNG" alt="screen mobile"> <img src="./client/src/assets/screenmobile2.PNG"  alt="screen mobile">
 
 ## 🛠️ Fonctionnalités:
 
