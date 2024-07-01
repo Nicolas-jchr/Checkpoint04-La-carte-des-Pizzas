@@ -59,7 +59,7 @@ export default function PizzaList() {
   };
 
   return (
-    <div>
+    <section>
       <nav className="navbar">
         <div className="navbar-left">
           <Link to="/">
@@ -94,10 +94,10 @@ export default function PizzaList() {
           </button>
         </div>
       </nav>
-      <div className="container">
+      <section className="container">
         {filteredPizzas.length > 0 ? (
           filteredPizzas.map((pizza) => (
-            <div key={pizza.id} className="card">
+            <article key={pizza.id} className="card">
               <Link to={`/pizza/${pizza.id}`}>
                 <img
                   src={pizza.photo}
@@ -111,20 +111,21 @@ export default function PizzaList() {
                 <h3 className="cardTextBase">Base: {pizza.base}</h3>
                 <p className="cardTextIngredients">{pizza.ingredients}</p>
               </div>
-            </div>
+            </article>
           ))
         ) : (
           <p>Pas de photos disponibles</p>
         )}
-      </div>
+      </section>
 
       {showModal && (
         <>
-          <button
-            type="button"
+          <div
             className="modal-overlay"
             onClick={() => setShowModal(false)}
             onKeyDown={handleKeyDown}
+            role="button"
+            tabIndex={0}
             aria-label="Close modal"
           />
           <div className="modal">
@@ -187,6 +188,6 @@ export default function PizzaList() {
           </div>
         </>
       )}
-    </div>
+    </section>
   );
 }
