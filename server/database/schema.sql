@@ -7,7 +7,9 @@ CREATE TABLE pizza (
 );
 
 INSERT INTO pizza (nom, base, ingredients, photo) VALUES
+('La Nîmoise', 'creme', 'mozzarella, brandade, olives', 'https://img.cuisineaz.com/1024x768/2013/12/20/i4828-photo-de-pizza-a-la-brandade.jpeg'),
 ('Capricciosa', 'tomate', 'mozzarella, jambon, champignons, artichauts, olives', 'https://img.sunset02.com/sites/default/files/image/recipes/su/14/09/capricciosa-pizza-su-x.jpg'),
+('La Dromoîse', 'creme', 'mozzarella, ravioles, olives', 'https://media-cdn.tripadvisor.com/media/photo-s/14/1d/af/62/pizza-aux-ravioles.jpg'),
 ('Marinara', 'tomate', 'ail, origan, huile d\'olive', 'https://www.pizzarecipe.org/wp-content/uploads/2019/01/Pizza-Marinara-2000x1500.jpg'),
 ('Al Funghi', 'creme', 'mozzarella, champignons, ail, persil', 'https://www.tasteatlas.com/images/dishes/08648360db374a7e939a0e5f19d8a7bd.jpg'),
 ('Quattro Stagioni', 'tomate', 'mozzarella, jambon, champignons, artichauts, olives', 'https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A7B9D1B2-20CE-4D60-B18D-77D8E09F847A/Derivates/349C6F0F-E5E5-4327-9892-930DE2D8E89F.jpg'),
