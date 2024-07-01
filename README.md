@@ -28,11 +28,11 @@
 
 ## 💻 Aperçu de la version Desktop :
 
-<img src="./client/src/assets/screendesktop1.PNG"  alt="screen desktop"> <img src="./client/src/assets/screendesktop3.PNG"  alt="screen desktop"> <img src="./client/src/assets/screendesktop2.PNG" alt="screen desktop">
+<img src="./client/src/ressources/screendesktop1.PNG"  alt="screen desktop"> <img src="./client/src/ressources/screendesktop3.PNG"  alt="screen desktop"> <img src="./client/src/ressources/screendesktop2.PNG" alt="screen desktop">
 
 ## 📱 Aperçu de la version mobile : 
 
-<img src="./client/src/assets/screenmobile1.PNG" alt="screen mobile"> <img src="./client/src/assets/screenmobile3.PNG" alt="screen mobile"> <img src="./client/src/assets/screenmobile2.PNG"  alt="screen mobile">
+<img src="./client/src/ressources/screenmobile1.PNG" alt="screen mobile"> <img src="./client/src/ressources/screenmobile3.PNG" alt="screen mobile"> <img src="./client/src/ressources/screenmobile2.PNG"  alt="screen mobile">
 
 ## 🛠️ Fonctionnalités:
 
@@ -81,9 +81,11 @@ v1.0 en cours
 
 ### 🖌️ Design du site sur Figma : 
 
-<img src="./client/src/assets/wireframe1.PNG" alt="screen wireframe"> <img src="./client/src/assets/wireframe2.PNG" alt="screen wireframe"> <img src="./client/src/assets/themes.PNG" alt="screen themes">
+<img src="./client/src/ressources/wireframe1.PNG" alt="screen wireframe"> <img src="./client/src/ressources/wireframe2.PNG" alt="screen wireframe"> <img src="./client/src/ressources/themes.PNG" alt="screen themes">
 
 ## 💻 Modélisation de la base de données
+
+<img src="./client/src/ressources/screenbdd.PNG" alt="screen base de données"> <img src="./client/src/ressources/screenbdd2.PNG" alt="screen base de données">
 
 ## 🛠️ Setup & utilisation
 
