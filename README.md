@@ -81,7 +81,7 @@ v1.0 en cours
 
 ### 🖌️ Design du site sur Figma : 
 
-<img src="./client/src/assets/wireframe1.PNG" width="300" height="500" alt="screen wireframe"> <img src="./client/src/assets/wireframe2.PNG" width="300" height="500" alt="screen wireframe"> <img src="./client/src/assets/themes.PNG" width="300" height="500" alt="screen themes">
+<img src="./client/src/assets/wireframe1.PNG" alt="screen wireframe"> <img src="./client/src/assets/wireframe2.PNG" alt="screen wireframe"> <img src="./client/src/assets/themes.PNG" alt="screen themes">
 
 ## 💻 Modélisation de la base de données
 
