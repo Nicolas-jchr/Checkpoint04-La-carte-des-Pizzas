@@ -1,11 +1,11 @@
 .footer {
-  background-color: var(--color-tomato);
-  color: var(--color-cream);
-  padding: 20px;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  background-color: var(--color-tomato);
+  color: var(--color-cream);
+  padding: 20px;
   gap: 10px;
   font-family: var(--primary-font);
 }
@@ -21,9 +21,9 @@
 }
 
 .github-logo {
+  height: 40px;
   background-color: white;
   border-radius: 10%;
-  height: 40px;
 }
 
 .github-link:hover .github-logo {

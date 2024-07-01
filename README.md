@@ -26,6 +26,14 @@
 - Le projet doit être disponible sur ton compte Github personnel
 - N'oublie pas tes acronymes préférés : KISS, DRY, SOLID et RTFM !
 
+## 💻 Aperçu de la version Desktop :
+
+<img src="./client/src/assets/screendesktop1.png" width="200" height="250" alt="screen desktop"> <img src="./client/src/assets/screendesktop3.png" width="200" height="250" alt="screen desktop"> <img src="./client/src/assets/screendesktop2.png" width="200" height="250" alt="screen desktop">
+
+## 📱 Aperçu de la version mobile : 
+
+<img src="./client/src/assets/screenmobile1.png" width="200" height="250" alt="screen mobile"> <img src="./client/src/assets/screenmobile3.png" width="200" height="250" alt="screen mobile"> <img src="./client/src/assets/screenmobile2.png" width="200" height="250" alt="screen mobile">
+
 ## 🛠️ Fonctionnalités:
 
 ### 👥 Partie Utilisateur:
@@ -68,6 +76,12 @@ v1.0 en cours
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## 📊 Wireframe : 
+
+### 🖌️ Design du site sur Figma : 
+
+<img src="./client/src/assets/wireframe1.png" width="200" height="250" alt="screen wireframe"> <img src="./client/src/assets/wireframe2.png" width="200" height="250" alt="screen wireframe"> <img src="./client/src/assets/themes.png" width="200" height="250" alt="screen themes">
 
 ## 💻 Modélisation de la base de données
 

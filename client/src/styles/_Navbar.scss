@@ -1,14 +1,14 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--color-tomato);
-  color: var(--color-cream);
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
   z-index: 1000;
+  background-color: var(--color-tomato);
+  color: var(--color-cream);
 }
 
 .navbar-left {
@@ -23,8 +23,8 @@
 
 .navbar-center {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
 }
 
 .navbar-right {

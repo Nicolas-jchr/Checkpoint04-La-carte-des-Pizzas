@@ -1,15 +1,14 @@
-/* Style pour la navbar */
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: var(--color-tomato);
-  color: var(--color-cream);
-  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
   z-index: 1000;
+  background-color: var(--color-tomato);
+  color: var(--color-cream);
 }
 
 .navbar-left {
@@ -24,8 +23,8 @@
 
 .navbar-center {
   display: flex;
-  gap: 10px;
   align-items: center;
+  gap: 10px;
 }
 
 .navbar-center label {
@@ -44,14 +43,14 @@
 }
 
 .add-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
   background: var(--color-cheese);
   border: none;
   color: var(--color-crust);
-  font-size: 1em;
-  padding: 10px 20px;
   cursor: pointer;
   border-radius: 8px;
-  font-weight: bold;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition:
     background-color 0.3s ease,
@@ -74,21 +73,21 @@
 
 .container {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
   padding: 20px;
 }
 
 .card {
+  width: 300px;
+  margin: 10px;
   background-color: var(--color-cream);
   border: 1px solid var(--color-crust);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.2s;
-  width: 300px;
-  margin: 10px;
 }
 
 .card:hover {
@@ -167,24 +166,24 @@
 
 .modal-content input,
 .modal-content select {
+  width: 100%;
   padding: 10px;
   margin-top: 5px;
   border: 1px solid var(--color-crust);
   border-radius: 4px;
   font-size: 1em;
-  width: 100%;
   box-sizing: border-box;
 }
 
 .modal-content button {
   padding: 10px;
-  cursor: pointer;
   background-color: var(--color-tomato);
   color: var(--color-cream);
-  border: none;
-  border-radius: 4px;
   font-size: 1em;
   font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
@@ -217,16 +216,16 @@
 
   .navbar-center {
     flex-direction: row;
-    gap: 5px;
-    width: 100%;
     justify-content: center;
+    width: 100%;
+    gap: 5px;
   }
 
   .navbar-right {
-    margin-right: 0;
-    width: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin-right: 0;
     margin-top: 5px;
   }
 

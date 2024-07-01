@@ -14,19 +14,19 @@
 
   @media (max-width: 768px) {
     h1 {
-      font-size: 3rem; // Ajustez la taille pour les tablettes
+      font-size: 3rem;
     }
     h2 {
-      font-size: 1.5rem; // Ajustez la taille pour les tablettes
+      font-size: 1.5rem;
     }
   }
 
   @media (max-width: 480px) {
     h1 {
-      font-size: 2rem; // Ajustez la taille pour les smartphones
+      font-size: 2rem;
     }
     h2 {
-      font-size: 1rem; // Ajustez la taille pour les smartphones
+      font-size: 1rem;
     }
   }
 }

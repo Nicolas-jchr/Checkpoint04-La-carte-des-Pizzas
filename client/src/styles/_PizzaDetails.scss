@@ -3,24 +3,24 @@
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  padding: 20px;
-  background-color: var(--color-cream);
+  padding: 10px;
   margin-top: 80px;
+  background-color: var(--color-cream);
 }
 
 .pizza-details-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  padding: 10px;
   background-color: white;
   border: 1px solid var(--color-crust);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 600px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
   font-family: var(--font-primary);
 }
 
@@ -28,34 +28,33 @@
   width: 100%;
   height: auto;
   max-height: 300px;
-  object-fit: contain;
+  object-fit: cover;
   border-bottom: 1px solid var(--color-crust);
-  border: none;
 }
 
 .pizza-details-card h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: var(--primary-font);
-  margin: 20px 0;
+  margin: 10px 0;
   color: var(--color-tomato);
 }
 
 .pizza-details-card h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-family: var(--secondary-font);
-  margin: 10px 0;
+  margin: 5px 0;
   color: var(--color-basil);
 }
 
 .pizza-details-card p {
-  font-size: 1em;
-  margin: 10px 0;
+  font-size: 0.9em;
+  margin: 5px 0;
   color: var(--color-crust);
 }
 
 .pizza-details-card .ingredients {
-  font-size: 1em;
-  margin: 20px 0;
+  font-size: 0.9em;
+  margin: 10px 0;
   color: var(--color-crust);
-  padding: 0 20px;
+  padding: 0 10px;
 }
